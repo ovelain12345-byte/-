@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+int a;
+int b;
+int c;
+
+int main() {
+	setlocale(0, "");
+	cout << "Календарь \n";
+	cout << "1 Январь \n";
+	cout << "2 Февраль \n";
+	cout << "3 Март \n";
+	cout << "4 Апрель \n";
+	cout << "5 Май \n";
+	cout << "6 Июнь \n";
+	cout << "7 Июль \n";
+	cout << "8 Август \n";
+	cout << "9 Сентябрь \n";
+	cout << "10 Октябрь \n";
+	cout << "11 Ноябрь \n";
+	cout << "12 Декарь \n";
+	cin >> a;
+	system("cls");
+	if (a >= 12) {
+		a == c;
+	}
+	else {
+		cout << "Ошибка"
+	}
+	
+		switch (a) {
+		case 1:
+			cout << "Выберите число месяца\n";
+			cin >> b;
+		default:
+
+			return 0;
+		}
+}
