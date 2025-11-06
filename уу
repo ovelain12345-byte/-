@@ -3,7 +3,6 @@ using namespace std;
 int a;
 int b;
 int c;
-
 int main() {
 	setlocale(0, "");
 	cout << "Календарь \n";
@@ -20,20 +19,160 @@ int main() {
 	cout << "11 Ноябрь \n";
 	cout << "12 Декарь \n";
 	cin >> a;
-	system("cls");
-	if (a >= 12) {
+	if (a <= 12) {
 		a == c;
 	}
 	else {
-		cout << "Ошибка"
+		cout << "Ошибка\n";
+		return 0;
 	}
-	
-		switch (a) {
-		case 1:
-			cout << "Выберите число месяца\n";
-			cin >> b;
-		default:
-
-			return 0;
+	system("cls");
+	switch (a) {
+		case 1: {
+			cout << "Январь" << endl;
+			cout << "Впишите число месяца: ";
+				cin >> b;
+				if (b <= 31) {
+					cout << "Календарь: Январь " << b << " Число";
+				}
+				else {
+					cout << "Ошибка";
+				}
+			break;
 		}
+		case 2: {
+			cout << "Февраль" << endl;
+			cout << "Впишите число месяца: ";
+			cin >> b;
+			if (b <= 31) {
+				cout << "Календарь: Февраль " << b << " Число";
+			}
+			else {
+				cout << "Ошибка";
+			}
+			break;
+		}
+		case 3: {
+			cout << "Март" << endl;
+			cout << "Впишите число месяца: ";
+			cin >> b;
+			if (b <= 31) {
+				cout << "Календарь: Март " << b << " Число";
+			}
+			else {
+				cout << "Ошибка";
+			}
+			break;
+		}
+		case 4: {
+			cout << "Апрель" << endl;
+			cout << "Впишите число месяца: ";
+			cin >> b;
+			if (b <= 31) {
+				cout << "Календарь: Апрель " << b << " Число";
+			}
+			else {
+				cout << "Ошибка";
+			}
+			break;
+		}
+		case 5: {
+			cout << "Май" << endl;
+			cout << "Впишите число месяца: ";
+			cin >> b;
+			if (b <= 31) {
+				cout << "Календарь: Май " << b << " Число";
+			}
+			else {
+				cout << "Ошибка";
+			}
+			break;
+		}
+		case 6: {
+			cout << "Июнь" << endl;
+			cout << "Впишите число месяца: ";
+			cin >> b;
+			if (b <= 31) {
+				cout << "Календарь: Июнь " << b << " Число";
+			}
+			else {
+				cout << "Ошибка";
+			}
+			break;
+		}
+		case 7: {
+			cout << "Июль" << endl;
+			cout << "Впишите число месяца: ";
+			cin >> b;
+			if (b <= 31) {
+				cout << "Календарь: Июль " << b << " Число";
+			}
+			else {
+				cout << "Ошибка";
+			}
+			break;
+		}
+		case 8: {
+			cout << "Август" << endl;
+			cout << "Впишите число месяца: ";
+			cin >> b;
+			if (b <= 31) {
+				cout << "Календарь: Август " << b << " Число";
+			}
+			else {
+				cout << "Ошибка";
+			}
+			break;
+		}
+		case 9: {
+			cout << "Сентябрь" << endl;
+			cout << "Впишите число месяца: ";
+			cin >> b;
+			if (b <= 31) {
+				cout << "Календарь: Сентябрь " << b << " Число";
+			}
+			else {
+				cout << "Ошибка";
+			}
+			break;
+		}
+		case 10: {
+			cout << "Октябрь" << endl;
+			cout << "Впишите число месяца: ";
+			cin >> b;
+			if (b <= 31) {
+				cout << "Календарь: Октябрь " << b << " Число";
+			}
+			else {
+				cout << "Ошибка";
+			}
+			break;
+		}
+		case 11: {
+			cout << "Ноябрь" << endl;
+			cout << "Впишите число месяца: ";
+			cin >> b;
+			if (b <= 31) {
+				cout << "Календарь: Ноябрь " << b << " Число";
+			}
+			else {
+				cout << "Ошибка";
+			}
+			break;
+		}
+		case 12: {
+			cout << "Декабрь" << endl;
+			cout << "Впишите число месяца: ";
+			cin >> b;
+			if (b <= 31) {
+				cout << "Календарь: Декабрь " << b << " Число";
+			}
+			else {
+				cout << "Ошибка";
+			}
+			break;
+		}
+	default: 
+		return 0;
+	}
 }
